@@ -1,0 +1,191 @@
+.navbar {
+    height: 70px;
+    flex-shrink: 0;
+    background: linear-gradient(0deg, #38B6FF 0%, #38B6FF 100%), #2797CF;
+    position: relative;
+}
+
+/* .navbar::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 99%;
+    height: 20px;
+    background: #2797CF;
+    border-radius: 0px 0px 136.5px 136.9px;
+    z-index: -1;
+} */
+
+.nav {
+    display: flex;
+
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+    margin-left: 300px;
+}
+
+.li {
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    text-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.nav-image {
+    width: 120px;
+    flex-shrink: 0;
+    position: relative;
+    top: -20px;
+    right: 15px;
+}
+
+.presentation {
+    display: flex;
+}
+
+.dl-icon {
+    color: #38B6FF;
+    font-size: 100px;
+}
+
+.competences-headings {
+    color: rgba(0, 0, 0, 0.52);
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.com-hed2 {
+    color: rgba(0, 0, 0, 0.52);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+.com-logo {
+    width: 80px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .com-images {
+        display: flex;
+        width: 35px;
+        margin-left: 130px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        gap: 10px;
+
+    }
+
+    .competences-headings {
+        color: rgba(0, 0, 0, 0.52);
+        text-align: center;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .com-hed2 {
+        color: rgba(0, 0, 0, 0.52);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .ul {
+        visibility: hidden;
+    }
+
+    .navbar {
+        height: 200px;
+        width: 470px;
+        background: linear-gradient(0deg, #38B6FF 0%, #38B6FF 100%), #2797CF;
+        position: relative;
+        border-bottom-left-radius: 100px;
+    }
+
+    .nav-image {
+        width: 150px;
+        flex-shrink: 0;
+        position: relative;
+        top: 40px;
+        left: 140px;
+        background: linear-gradient(0deg, #38B6FF 0%, #38B6FF 100%), #2797CF;
+    }
+
+    .presentation {
+        align-items: flex-end;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 786px) {
+    .com-images {
+        display: flex;
+        width: 55px;
+        margin-left: 280px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        gap: 10px;
+
+    }
+
+    .competences-headings {
+        color: rgba(0, 0, 0, 0.52);
+        text-align: center;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .com-hed2 {
+        color: rgba(0, 0, 0, 0.52);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .ul {
+        visibility: hidden;
+    }
+
+    .navbar {
+        height: 200px;
+        width: 780px;
+        background: linear-gradient(0deg, #38B6FF 0%, #38B6FF 100%), #2797CF;
+        position: relative;
+        border-bottom-left-radius: 100px;
+    }
+
+    .nav-image {
+        width: 150px;
+        flex-shrink: 0;
+        position: relative;
+        top: 40px;
+        left: 320px;
+        background: linear-gradient(0deg, #38B6FF 0%, #38B6FF 100%), #2797CF;
+    }
+    .presentation {
+        align-items: flex-end;
+    }
+}
